@@ -4,7 +4,7 @@
 		<xsd:element name="VFPData" msdata:IsDataSet="true">
 			<xsd:complexType>
 				<xsd:choice maxOccurs="unbounded">
-					<xsd:element name="fxupersistgettemplate_5040lgdtz" minOccurs="0" maxOccurs="unbounded">
+					<xsd:element name="fxupersistgettemplate_50610nj60" minOccurs="0" maxOccurs="unbounded">
 						<xsd:complexType>
 							<xsd:sequence>
 								<xsd:element name="userid">
@@ -29,32 +29,60 @@
 			</xsd:complexType>
 		</xsd:element>
 	</xsd:schema>
-	<fxupersistgettemplate_5040lgdtz>
+	<fxupersistgettemplate_50610nj60>
 		<userid>ronil</userid>
 		<setting>THIS.Top = 22</setting>
-	</fxupersistgettemplate_5040lgdtz>
-	<fxupersistgettemplate_5040lgdtz>
+	</fxupersistgettemplate_50610nj60>
+	<fxupersistgettemplate_50610nj60>
 		<userid>ronil</userid>
 		<setting>THIS.Left = -3</setting>
-	</fxupersistgettemplate_5040lgdtz>
-	<fxupersistgettemplate_5040lgdtz>
+	</fxupersistgettemplate_50610nj60>
+	<fxupersistgettemplate_50610nj60>
 		<userid>ronil</userid>
 		<setting>THIS.Height = IIF(VERSION(5)&gt;=900,431,431)</setting>
-	</fxupersistgettemplate_5040lgdtz>
-	<fxupersistgettemplate_5040lgdtz>
+	</fxupersistgettemplate_50610nj60>
+	<fxupersistgettemplate_50610nj60>
 		<userid>ronil</userid>
 		<setting>THIS.Width = IIF(VERSION(5)&gt;=900,804,804)</setting>
-	</fxupersistgettemplate_5040lgdtz>
-	<fxupersistgettemplate_5040lgdtz>
+	</fxupersistgettemplate_50610nj60>
+	<fxupersistgettemplate_50610nj60>
 		<userid>ronil</userid>
 		<setting>THIS.chkProcedure.Value = .F.</setting>
-	</fxupersistgettemplate_5040lgdtz>
-	<fxupersistgettemplate_5040lgdtz>
+	</fxupersistgettemplate_50610nj60>
+	<fxupersistgettemplate_50610nj60>
 		<userid>ronil</userid>
 		<setting>THIS.chkTab.Value = .T.</setting>
-	</fxupersistgettemplate_5040lgdtz>
-	<fxupersistgettemplate_5040lgdtz>
+	</fxupersistgettemplate_50610nj60>
+	<fxupersistgettemplate_50610nj60>
 		<userid>ronil</userid>
 		<setting>THIS.lstTemplates.Value = 1</setting>
-	</fxupersistgettemplate_5040lgdtz>
+	</fxupersistgettemplate_50610nj60>
+	<fxupersistgettemplate_50610nj60>
+		<userid>User</userid>
+		<setting>THIS.Top = 60</setting>
+	</fxupersistgettemplate_50610nj60>
+	<fxupersistgettemplate_50610nj60>
+		<userid>User</userid>
+		<setting>THIS.Left = 42</setting>
+	</fxupersistgettemplate_50610nj60>
+	<fxupersistgettemplate_50610nj60>
+		<userid>User</userid>
+		<setting>THIS.Height = IIF(VERSION(5)&gt;=900,431,431)</setting>
+	</fxupersistgettemplate_50610nj60>
+	<fxupersistgettemplate_50610nj60>
+		<userid>User</userid>
+		<setting>THIS.Width = IIF(VERSION(5)&gt;=900,804,804)</setting>
+	</fxupersistgettemplate_50610nj60>
+	<fxupersistgettemplate_50610nj60>
+		<userid>User</userid>
+		<setting>THIS.chkProcedure.Value = .F.</setting>
+	</fxupersistgettemplate_50610nj60>
+	<fxupersistgettemplate_50610nj60>
+		<userid>User</userid>
+		<setting>THIS.chkTab.Value = .T.</setting>
+	</fxupersistgettemplate_50610nj60>
+	<fxupersistgettemplate_50610nj60>
+		<userid>User</userid>
+		<setting>THIS.lstTemplates.Value = 1</setting>
+	</fxupersistgettemplate_50610nj60>
 </VFPData>

@@ -1,19 +1,26 @@
 **********************************************************************
-DEFINE CLASS TesteClasseCliente as FxuTestCase OF FxuTestCase.prg
+DEFINE CLASS TesteFormCliente as FxuTestCase OF FxuTestCase.prg
 **********************************************************************
-
 	#IF .f.
-	LOCAL THIS AS TesteClasseCliente OF TesteClasseCliente.PRG
+	*
+	*  this LOCAL declaration enabled IntelliSense for
+	*  the THIS object anywhere in this class
+	*
+	LOCAL THIS AS TesteFormCliente OF TesteFormCliente.PRG
 	#ENDIF
 	
-	ioCliente = .NULL.
-*!*		icTestPrefix = 'Teste'
+	frm = .NULL.
 	
 	********************************************************************
 	FUNCTION Setup
 	********************************************************************
 	
-		THIS.ioCliente = NEWOBJECT('cliente', 'cliente.vcx')
+		* Obtém uma instancia do formulário.
+		* OBS.: Foi feito desta forma porque 
+		* as funções de CreateObject e NewObject
+		* não funcionaram
+		DO FORM frmteste NAME Form1 NOSHOW
+		this.frm = Form1
 		
 	********************************************************************
 	ENDFUNC
@@ -22,80 +29,83 @@ DEFINE CLASS TesteClasseCliente as FxuTestCase OF FxuTestCase.prg
 	********************************************************************
 	FUNCTION TearDown
 	********************************************************************
-	
-		this.ioCliente = .NULL.   
+	 
+	 	* Finaliza o form
+	 	this.frm.Release()
+		this.frm = .NULL.
 		
 	********************************************************************
 	ENDFUNC
 	********************************************************************	
-    	
-    *********************************************************************
-	FUNCTION VerificaSeObjetoClienteFoiCriado
-	*********************************************************************
+    
 	
-		* Verifica se a instancia da classe Cliente foi criada
-		bResultado = THIS.AssertNotNull(THIS.ioCliente, ;
+	*********************************************************************
+	FUNCTION VerificaSeObjetoFormFoiCriado
+	*********************************************************************
+		
+		* Teste unitário para verificar se a instancia 
+		* do form foi criada.
+		THIS.AssertNotNull(THIS.frm, ;
 			"Objeto não foi instanciado na função Setup()")
 			
 	*********************************************************************
 	ENDFUNC
 	*********************************************************************
 	
+	
 	*********************************************************************
-	FUNCTION TesteFuncaoRetornaClientes
+	FUNCTION TesteFuncaoInstanciaCliente
+	*********************************************************************
+		
+		* Testa a função instancia_cliente
+		* existente no form
+		oCliente = this.frm.instancia_cliente()
+		THIS.AssertNotNull(oCliente)
+		
+	*********************************************************************
+	ENDFUNC
+	*********************************************************************
+
+	*********************************************************************
+	FUNCTION TesteFuncaoPopulaList
 	*********************************************************************
 	
-		* Teste unitário para função retorna_clientes.
-		* Caso os clientes sejam obtidos os mesmos
-		* são listados na aba Messages
-		LOCAL aClientes AS ARRAY
-		THIS.ioCliente.retorna_clientes(@aClientes)
+		* Testa a função popula_list
+		* existente no form e verifica
+		* se o ListBox possue itens
+		THIS.frm.popula_list()	
+		THIS.AssertTrue((this.frm.lstClientes.ListCount > 0))
 		
-		bResultado = THIS.AssertNotNull(aClientes)
+	*********************************************************************
+	ENDFUNC
+	*********************************************************************
+	
+	*********************************************************************
+	FUNCTION ValidaSeCheboxMarcado
+	*********************************************************************
 		
-		IF bResultado THEN
-			FOR i = 1 TO ALEN(aClientes)
-				THIS.MessageOut(aClientes[i])
-			ENDFOR		
+		bResultado = .F.
+		IF this.frm.chkFox.Value == 1 THEN
+			bResultado = .T.
 		ENDIF
 		
-			
-	*********************************************************************
-	ENDFUNC
-	*********************************************************************	
-	
-	*********************************************************************
-	FUNCTION TesteFuncaoBuscaCliente
-	*********************************************************************
-
-		* Teste unitário para função busca_cliente.
-		sResultado = THIS.ioCliente.busca_cliente('Cliente5')		
-		THIS.AssertEquals('Cliente5', sResultado)		
-
-	*********************************************************************
-	ENDFUNC
-	*********************************************************************
-	
-	*********************************************************************
-	FUNCTION VerificaSeInstanciaDaClasseEObjeto
-	*********************************************************************
-
-		bResultado = THIS.AssertIsObject(THIS.ioCliente)
+		this.AssertTrue(bResultado)
 		
-		IF bResultado THEN
-			THIS.MessageOut('A instancia é um objeto')
-		ENDIF
-			
 	*********************************************************************
 	ENDFUNC
 	*********************************************************************
 	
 	*********************************************************************
-	FUNCTION ObtemValoresDoBancoDeDados
+	FUNCTION ValidaSeCheboxDesmarcado
 	*********************************************************************
-
-		this.AssertNotImplemented('Teste não implementado!')
-			
+		
+		bResultado = .F.
+		IF this.frm.chkFox.Value == 1 THEN
+			bResultado = .T.
+		ENDIF
+				
+		this.AssertFalse(bResultado)
+		
 	*********************************************************************
 	ENDFUNC
 	*********************************************************************
@@ -117,7 +127,8 @@ DEFINE CLASS TesteClasseCliente as FxuTestCase OF FxuTestCase.prg
 *!*		AssertHasError(tcMessage, toException, taStackInfo)
 *!*		AssertHasErrorNo(tcMessage, toException, tnErrorNo, taStackInfo)
 
-*!*		AssertNotImplemented(tcMessage)  (The new default return value for new tests)	
+*!*		AssertNotImplemented(tcMessage)  (The new default return value for new tests)
+
 
 **********************************************************************
 ENDDEFINE
