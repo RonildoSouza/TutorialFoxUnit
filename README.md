@@ -19,7 +19,7 @@ Para criar uma Classe de Teste no FoxUnit realize os seguintes procedimentos:
 
 * Iniciar o FoxUnit e clique no botão de **New**
 
-    ![NewTestClass](GRAPHICS/NewTestClass.png)
+    ![NewTestClass](GRAPHICS/NewTestClass.PNG)
 
 * Na tela **New Test Class** você deve:
     * Selecionar um template (Recomendo o Standard)
@@ -28,7 +28,7 @@ Para criar uma Classe de Teste no FoxUnit realize os seguintes procedimentos:
 
 * Após criar a Classe de Teste a mesma será apresentada no Grid como na imagem abaixo
 
-    ![TestClass](GRAPHICS/TestClass.png)
+    ![TestClass](GRAPHICS/TestClass.PNG)
 
 Você pode editar a Classe realizando um duplo clique sobre a mesma no Grid ou Clicando nos botões de **Add** ou **Edit**.
 Quando clicado no botão de Add o FoxUnit cria uma função de teste unitário com um template padrão.
