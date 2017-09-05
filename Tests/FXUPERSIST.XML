@@ -4,7 +4,7 @@
 		<xsd:element name="VFPData" msdata:IsDataSet="true">
 			<xsd:complexType>
 				<xsd:choice maxOccurs="unbounded">
-					<xsd:element name="fxupersist_50612jg5r" minOccurs="0" maxOccurs="unbounded">
+					<xsd:element name="fxupersist_50613edbn" minOccurs="0" maxOccurs="unbounded">
 						<xsd:complexType>
 							<xsd:sequence>
 								<xsd:element name="userid">
@@ -29,356 +29,356 @@
 			</xsd:complexType>
 		</xsd:element>
 	</xsd:schema>
-	<fxupersist_50612jg5r>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.Top = 123</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.Left = 314</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.Height = IIF(VERSION(5)&gt;=900,504,504)</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.Width = IIF(VERSION(5)&gt;=900,803,803)</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.inZoomTop = .F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.inZoomLeft = .F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.inZoomHeight = .F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.inZoomWidth = .F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.inZoomWindowState = 0</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.pgfDetails.ActivePage = 1</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.grdTests.FontName = "Tahoma"</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.grdTests.FontSize = 9</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.grdTests.FontBold = .F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.grdTests.FontItalic = .F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.pgfDetails.pgFailuresAndErrors.FontName = "Arial"</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.pgfDetails.pgFailuresAndErrors.FontSize = 9</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.pgfDetails.pgFailuresAndErrors.FontBold = .F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.pgfDetails.pgFailuresAndErrors.FontItalic = .F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.pgfDetails.pgFailuresAndErrors.edtFailuresAndErrors.FontName = "Courier New"</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.pgfDetails.pgFailuresAndErrors.edtFailuresAndErrors.FontSize = 9</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.pgfDetails.pgFailuresAndErrors.edtFailuresAndErrors.FontBold = .F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.pgfDetails.pgFailuresAndErrors.edtFailuresAndErrors.FontItalic = .F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.pgfDetails.pgMessages.FontName = "Arial"</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.pgfDetails.pgMessages.FontSize = 9</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.pgfDetails.pgMessages.FontBold = .T.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.pgfDetails.pgMessages.FontItalic = .F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.pgfDetails.pgMessages.edtMessages.FontName = "Courier New"</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.pgfDetails.pgMessages.edtMessages.FontSize = 9</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.pgfDetails.pgMessages.edtMessages.FontBold = .F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.pgfDetails.pgMessages.edtMessages.FontItalic = .F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.ilLargeGrid=.F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.grdTests.Column1.Width = 208</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.grdTests.Column2.Width = 550</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>SET ORDER TO TAG TCLOC IN (THIS.icGridRS)</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>=SEEK("TESTECLASSECLIENTE                                                                                            TESTOBJECTCUSTOMMETHODRETURNVALUE                                                                                                 ",THIS.icGridRS,"TCLName")</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.ilAllowDebug = .F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.ShowTips = .T.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.ilHonorTestPrefix = .F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.ilReloadTestsOnRun = .F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.ilCloseDebuggerAtEndOfTestsRun = .F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.nSplitterPosition = 206</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.iResetResults = .T.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.inColorPass = 56320</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>ronil</userid>
 		<setting>THIS.inColorFail = 3289855</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
-		<setting>THIS.Top = 0</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+		<setting>THIS.Top = 112</setting>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
-		<setting>THIS.Left = 449</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+		<setting>THIS.Left = 273</setting>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
-		<setting>THIS.Height = IIF(VERSION(5)&gt;=900,696,504)</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+		<setting>THIS.Height = IIF(VERSION(5)&gt;=900,504,504)</setting>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
-		<setting>THIS.Width = IIF(VERSION(5)&gt;=900,900,803)</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+		<setting>THIS.Width = IIF(VERSION(5)&gt;=900,803,803)</setting>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>THIS.inZoomTop = .F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>THIS.inZoomLeft = .F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>THIS.inZoomHeight = .F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>THIS.inZoomWidth = .F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>THIS.inZoomWindowState = 0</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>THIS.pgfDetails.ActivePage = 1</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>THIS.grdTests.FontName = "Tahoma"</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>THIS.grdTests.FontSize = 9</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>THIS.grdTests.FontBold = .F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>THIS.grdTests.FontItalic = .F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>THIS.pgfDetails.pgFailuresAndErrors.FontName = "Arial"</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>THIS.pgfDetails.pgFailuresAndErrors.FontSize = 9</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
-		<setting>THIS.pgfDetails.pgFailuresAndErrors.FontBold = .F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+		<setting>THIS.pgfDetails.pgFailuresAndErrors.FontBold = .T.</setting>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>THIS.pgfDetails.pgFailuresAndErrors.FontItalic = .F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>THIS.pgfDetails.pgFailuresAndErrors.edtFailuresAndErrors.FontName = "Courier New"</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>THIS.pgfDetails.pgFailuresAndErrors.edtFailuresAndErrors.FontSize = 9</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>THIS.pgfDetails.pgFailuresAndErrors.edtFailuresAndErrors.FontBold = .F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>THIS.pgfDetails.pgFailuresAndErrors.edtFailuresAndErrors.FontItalic = .F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>THIS.pgfDetails.pgMessages.FontName = "Arial"</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>THIS.pgfDetails.pgMessages.FontSize = 9</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
-		<setting>THIS.pgfDetails.pgMessages.FontBold = .T.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+		<setting>THIS.pgfDetails.pgMessages.FontBold = .F.</setting>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>THIS.pgfDetails.pgMessages.FontItalic = .F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>THIS.pgfDetails.pgMessages.edtMessages.FontName = "Courier New"</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>THIS.pgfDetails.pgMessages.edtMessages.FontSize = 9</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>THIS.pgfDetails.pgMessages.edtMessages.FontBold = .F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>THIS.pgfDetails.pgMessages.edtMessages.FontItalic = .F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>THIS.ilLargeGrid=.F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>THIS.grdTests.COLUMN1.Width = 208</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
-		<setting>THIS.grdTests.COLUMN2.Width = 647</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+		<setting>THIS.grdTests.COLUMN2.Width = 550</setting>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>SET ORDER TO TAG TCLOC IN (THIS.icGridRS)</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
-		<setting>=SEEK("TESTECLASSECLIENTE                                                                                            TESTEFUNCAORETORNACLIENTES                                                                                                        ",THIS.icGridRS,"TCLName")</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+		<setting>=SEEK("TESTEFORMCLIENTE                                                                                              VALIDASECHEBOXMARCADO                                                                                                             ",THIS.icGridRS,"TCLName")</setting>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>THIS.ilAllowDebug = .F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>THIS.ShowTips = .T.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>THIS.ilHonorTestPrefix = .F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>THIS.ilReloadTestsOnRun = .F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>THIS.ilCloseDebuggerAtEndOfTestsRun = .F.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
-		<setting>THIS.nSplitterPosition = 293</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+		<setting>THIS.nSplitterPosition = 206</setting>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>THIS.iResetResults = .T.</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>THIS.inColorPass = 56320</setting>
-	</fxupersist_50612jg5r>
-	<fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
+	<fxupersist_50613edbn>
 		<userid>User</userid>
 		<setting>THIS.inColorFail = 3289855</setting>
-	</fxupersist_50612jg5r>
+	</fxupersist_50613edbn>
 </VFPData>
