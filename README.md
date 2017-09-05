@@ -39,13 +39,13 @@ Quando clicado no botão de Add o FoxUnit cria uma função de teste unitário c
 
 * Setup()
 
-    Chamado automaticamente no início de cada teste.
-    Está função deve ser utilizada para instaciar objetos que serão utilizados nas funções de teste unitário.
+    Chamado automaticamente no início de cada teste.    
+     Está função deve ser utilizada para instaciar objetos que serão utilizados nas funções de teste unitário.
 
 * TearDown()
 
-    Chamado automaticamente no final de cada teste.
-    Está função serve para efetuar um "Dispose" dos objetos que foram criados na função de Setup().
+    Chamado automaticamente no final de cada teste.    
+     Está função serve para efetuar um "Dispose" dos objetos que foram criados na função de Setup().
 
 * Asserts
 
