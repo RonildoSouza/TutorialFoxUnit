@@ -1,4 +1,4 @@
-# ![FoxUnit](GRAPHICS/FoxUnit.ico) Tutorial Básico
+# ![FoxUnit](GRAPHICS/FoxUnit.ico) FoxUnit - Tutorial Básico
 
 ## Instalando o FoxUnit
 
